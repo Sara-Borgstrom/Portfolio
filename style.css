@@ -1,0 +1,180 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(red_BettinaDupont.jpg);
+  background-size: cover;
+  height: 500px;
+  position: sticky;
+  width: auto;
+  border-bottom: 3px solid white;
+}
+
+.header-text {
+  color: white;
+  margin: 0px 25px;
+  float: left;
+  width: max-content;
+}
+
+.head-h1 {
+  font-size: 3.5em;
+  margin: 2px;
+}
+
+.head-h2 {
+  font-size: 2em;
+  margin: 2px;
+}
+
+.head-p {
+  font-weight: 1px;
+  margin: 2px;
+}
+
+.fab {
+  width: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px 25px;
+}
+
+.icon-pic {
+  width: 25px;
+  object-fit: cover;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 3px;
+}
+
+.me-pic {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 25px;
+  margin-top: -110px;
+  position: sticky;
+}
+
+.me {
+  width: 115px;
+  height: auto;
+  object-fit: cover;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin: 3px
+}
+
+.text {
+  margin-top: -15px;
+}
+
+.blocks:nth-child(even) {
+  background-color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.blocks:nth-child(odd) {
+  background-color: #f4f4f4;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.main-h2 {
+  color: white;
+  background-color: #D63230;
+  padding: 3px;
+  align-self: center;
+}
+
+.tech-p {}
+
+.featured-img {
+  width: 250px;
+}
+
+.short-text {
+  color: grey;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+h4 {
+  align-self: flex-start;
+  margin: 9px 25px;
+}
+
+h3 {
+  align-self: flex-start;
+  margin: 9px 25px;
+}
+
+.skills {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-left: 23px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.skill-item {
+  font-size: 13px;
+  color: white;
+  background-color: #FF6D4C;
+  padding: 3px;
+  margin: 3px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.red {
+  color: #D63230;
+}
+
+footer {
+  background-color: #86BA90;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 250px;
+  color: white;
+}
+
+.foot-h2 {
+  font-size: 2em;
+  margin: 2px;
+}
+
+.foot-p {
+  font-weight: 1px;
+  margin: 2px;
+}
