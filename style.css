@@ -169,6 +169,18 @@ footer {
   color: white;
 }
 
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  color: #D63230;
+  padding: 10px;
+}
+
+.skill-name {
+  color: black;
+}
+
 .foot-h2 {
   font-size: 2em;
   margin: 2px;
@@ -178,3 +190,12 @@ footer {
   font-weight: 1px;
   margin: 2px;
 }
+
+@media (min-width: 650px) {
+  .skill-box {
+    flex-direction: row;
+    column-count: 2;
+  }
+}
+
+@media (min-width: 900px) {}
