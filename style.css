@@ -67,17 +67,16 @@ header {
   display: flex;
   justify-content: flex-end;
   margin: 0px 25px;
-  margin-top: -110px;
+  margin-top: 105px;
   position: sticky;
 }
 
 .me {
   width: 115px;
-  height: auto;
-  object-fit: cover;
   border: 3px solid white;
   border-radius: 50%;
-  margin: 3px
+  margin: 0px 25px;
+  margin-bottom: -15px;
 }
 
 .text {
@@ -115,11 +114,28 @@ header {
   width: 250px;
 }
 
-.short-text {
+.withpic-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-whitpic {
   color: grey;
   width: 320px;
   display: flex;
+  align-items: center;
   flex-direction: column;
+  text-align: left;
+}
+
+.article-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.short-text {
+  color: grey;
+  width: 320px;
   text-align: left;
 }
 
@@ -129,7 +145,7 @@ h4 {
 }
 
 h3 {
-  align-self: flex-start;
+  color: gray;
   margin: 9px 25px;
 }
 
@@ -140,6 +156,7 @@ h3 {
   margin-left: 23px;
   margin-bottom: 0px;
   margin-top: 0px;
+  align-self: baseline;
 }
 
 .skill-item {
@@ -169,17 +186,27 @@ footer {
   color: white;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.skill-box {
+  justify-content: center;
+}
+
 .skill-list {
   display: flex;
   flex-direction: column;
   list-style: none;
   color: #D63230;
-  padding: 10px;
+  padding: 2px;
 }
 
 .skill-name {
   color: black;
   list-style: none;
+  padding: 2px;
 }
 
 .foot-h2 {
@@ -195,7 +222,13 @@ footer {
 @media (min-width: 650px) {
   .skill-box {
     flex-direction: row;
-    column-count: 2;
+    column-count: 4;
+  }
+  .withpic-box {
+    flex-direction: row;
+  }
+  .short-text {
+    width: 100%;
   }
 }
 
