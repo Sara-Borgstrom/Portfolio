@@ -230,6 +230,37 @@ ul {
   .short-text {
     width: 100%;
   }
+  .icons {
+    margin: 15px 125px;
+  }
+  .header-text {
+    margin: 15px 125px;
+  }
+  .me-pic {
+    margin: 15px 125px;
+  }
+  .text {
+    padding: 0 125px;
+  }
+  .tech-p {
+    padding: 0 125px;
+  }
 }
 
-@media (min-width: 900px) {}
+@media (min-width: 900px) {
+  .icons {
+    margin: 15px 225px;
+  }
+  .header-text {
+    margin: 15px 225px;
+  }
+  .me-pic {
+    margin: 15px 225px;
+  }
+  .text {
+    padding: 0 225px;
+  }
+  .tech-p {
+    padding: 0 225px;
+  }
+}
