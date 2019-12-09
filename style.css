@@ -56,18 +56,35 @@ header {
 }
 
 .icon-pic {
-  width: 25px;
-  object-fit: cover;
+  width: 50%;
+  height: 50%;
+}
+
+.icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid white;
   border-radius: 20px;
-  margin: 3px;
+  width: 40px;
+  height: 40px;
+}
+
+.icon-linkgreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #86BA90;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
 }
 
 .me-pic {
   display: flex;
   justify-content: flex-end;
   margin: 0px 25px;
-  margin-top: 105px;
+  margin-bottom: -5%;
   position: sticky;
 }
 
@@ -75,6 +92,7 @@ header {
   width: 115px;
   border: 3px solid white;
   border-radius: 50%;
+  align-self: flex-end;
   margin: 0px 25px;
   margin-bottom: -15px;
 }
@@ -107,8 +125,6 @@ header {
   padding: 3px;
   align-self: center;
 }
-
-.tech-p {}
 
 .featured-img {
   width: 250px;
