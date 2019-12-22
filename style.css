@@ -167,6 +167,11 @@ h3 {
   margin: 9px 25px;
 }
 
+.thoughts-text {
+  color: black;
+  font-weight: lighter;
+}
+
 .skills {
   display: flex;
   list-style: none;
