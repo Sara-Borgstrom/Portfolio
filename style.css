@@ -1,6 +1,10 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;*/
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -95,11 +99,11 @@ header {
   border-radius: 50%;
   align-self: flex-end;
   margin: 0px 25px;
-  margin-bottom: -115px;
+  margin-bottom: -130px;
 }
 
 .text {
-  margin-top: -15px;
+  margin-top: 15px;
 }
 
 .blocks:nth-child(even) {
@@ -128,22 +132,24 @@ header {
 }
 
 .featured-img {
-  width: 250px;
-  height: 150px;
+  width: 300px;
+  height: 175px;
 }
 
 .withpic-box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .article-whitpic {
   color: grey;
-  width: 320px;
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: left;
+  padding: 25px;
+  width: min-content;
 }
 
 .article-box {
@@ -159,7 +165,6 @@ header {
 
 h4 {
   align-self: flex-start;
-  margin: 9px 25px;
 }
 
 h3 {
@@ -176,7 +181,7 @@ h3 {
   display: flex;
   list-style: none;
   padding: 0;
-  margin-left: 23px;
+  margin-left: 0;
   margin-bottom: 0px;
   margin-top: 0px;
   align-self: baseline;
@@ -193,6 +198,11 @@ h3 {
 a {
   text-decoration: none;
   cursor: pointer;
+  color: black;
+}
+
+.a::after {
+  text-decoration: none;
 }
 
 .detail {
@@ -249,6 +259,7 @@ ul {
   }
   .withpic-box {
     flex-direction: row;
+    width: 450px;
   }
   .short-text {
     width: 640px;
@@ -268,6 +279,9 @@ ul {
   .tech-p {
     padding: 0 125px;
   }
+  .article-whitpic {
+    align-items: flex-start;
+  }
 }
 
 @media (min-width: 900px) {
@@ -281,9 +295,15 @@ ul {
     margin: 15px 225px;
   }
   .text {
-    padding: 0 225px;
+    padding: 0 125px;
+    max-width: 900px;
   }
   .tech-p {
-    padding: 0 225px;
+    padding: 0 125px;
+    max-width: 900px;
+  }
+  .withpic-box {
+    flex-direction: row;
+    width: 850px;
   }
 }
