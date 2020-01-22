@@ -1,5 +1,6 @@
-# Portfolio to do
+# My Portfolio!
+This is my portfolio with my thoughts and a few of my projects. 
+I will update this during this course. 
 
-* social link icons 
-* my thoughts block
-* write new intro text
+
+See my portfolio: https://saraborgstromportfolio.netlify.com/
